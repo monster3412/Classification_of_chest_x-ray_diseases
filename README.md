@@ -26,8 +26,10 @@ YOLOv8 модель для выявления патологий по рентг
 
 1. Одиночный снимок
 
-  COVID-19.png: 256x256 COVID 1.00, Normal 0.00
-  Результат: COVID (100.00%)
+  🔍 image 1/1 /content/Normal-2.png: 256x256 Normal 1.00, Lung_Opacity 0.00, Viral Pneumonia 0.00, COVID 0.00, 594.2ms
+  Speed: 50.7ms preprocess, 594.2ms inference, 0.1ms postprocess per image at shape (1, 3, 256, 256)
+
+  💡 Результат: Normal (100.00%)
 
 
 2. Пакетная обработка
